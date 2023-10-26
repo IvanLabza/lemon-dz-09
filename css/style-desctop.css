@@ -1,0 +1,26 @@
+@media screen and (min-width:1188px) {
+
+
+    .sidebar {
+        border-radius: 20px;
+        background: #fbfbfb;
+    }
+
+
+
+    .header {
+        background: rgba(255, 255, 255, 0.80);
+
+        backdrop-filter: blur(42px);
+    }
+
+
+    .content {
+        background: rgba(255, 255, 255, 0.80);
+
+        backdrop-filter: blur(42px);
+        padding-left: 37px;
+    }
+
+
+}

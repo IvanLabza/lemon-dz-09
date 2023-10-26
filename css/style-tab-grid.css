@@ -1,0 +1,68 @@
+@media screen and (min-width:768px) {
+    .grid-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    .sidebar {
+        grid-area: 1 / 1 / 10 / 2;
+    }
+
+    .header {
+        grid-area: 1 / 2 / 2 / 4;
+    }
+
+    .content {
+        grid-area: 2 / 2 / 10 / 4;
+    }
+
+    .content-list {
+        display: grid;
+        grid-template-columns: repeat(2, 0.5fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    .div1 {
+        grid-area: 1 / 1 / 2 / 3;
+    }
+
+    .div2 {
+        grid-area: 2 / 1 / 3 / 3;
+    }
+
+    .div3 {
+        grid-area: 3 / 1 / 5 / 2;
+    }
+
+    .div4 {
+        grid-area: 3 / 2 / 5 / 3;
+    }
+
+    .div5 {
+        grid-area: 7 / 1 / 9 / 2;
+    }
+
+    .div6 {
+        grid-area: 7 / 2 / 9 / 3;
+    }
+
+    .div7 {
+        grid-area: 5 / 1 / 6 / 3;
+    }
+
+    .div8 {
+        grid-area: 6 / 1 / 7 / 3;
+    }
+
+    .content-wrapper {
+        max-width: unset;
+        margin: unset;
+    }
+
+
+}
