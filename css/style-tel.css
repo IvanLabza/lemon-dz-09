@@ -214,10 +214,18 @@
     fill: orange;
 }
 
-.content-list-img{
+.content-list-item{
 transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.content-list-img:is(:hover, :focus){
+.content-list-item:is(:hover, :focus){
 transform: scale(1.05);
+}
+
+.sidebar-list-item{
+transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sidebar-list-item:is(:hover, :focus){
+transform: scale(1.08);
 }
