@@ -1,21 +1,4 @@
-@media screen and (min-width:768px) {
-    .grid-wrapper {}
-
-    .sidebar {}
-
-    .container-sidebar {}
-
-    .sidebar-logo {}
-
-    .sidebar-title {}
-
-    .sidebar-list {}
-
-    .sidebar-list-item {}
-
-    .sidebar-list-link {}
-
-    .sidebar-list-img {}
+@media screen and (min-width:600px) {
 
     .header {
         padding-right: 52px;
